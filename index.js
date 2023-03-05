@@ -11,7 +11,7 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 const render = require("./src/page-template.js");
 
 
-// TODO: Write Code to gather information about the development team members, and render the HTML file.
+// Code to gather information about the development team members, and render the HTML file.
 const {Employee} = require('./lib/Employee');
 
 const team = [];
@@ -19,6 +19,12 @@ const team = [];
 function addEmployee() {
   inquirer
     .prompt([
+      {
+        type: 'list',
+        name: 'role',
+        message: 'Select employee role:',
+        choices: ['Employee', 'Manager', 'Engineer', 'Intern'],
+      },
       {
         type: 'input',
         name: 'name',
@@ -34,21 +40,12 @@ function addEmployee() {
         name: 'email',
         message: 'Enter employee email:',
       },
-      {
-        type: 'list',
-        name: 'role',
-        message: 'Select employee role:',
-        choices: ['Employee', 'Manager', 'Engineer', 'Intern'],
-      },
     ])
     .then((answers) => {
       let employee;
       switch (answers.role) {
         case 'Employee':
           employee = new Employee(answers.name, answers.id, answers.email);
-          break;
-        // Add cases for other roles here
-        default:
           break;
       }
       team.push(employee);

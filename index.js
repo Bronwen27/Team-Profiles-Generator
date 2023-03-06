@@ -98,13 +98,13 @@ function addIntern(otherEmpInfo){
 // }
 
 const createHtml = () => {
-  function createHtml() {
+
     if(!fs.existsSync(OUTPUT_DIR)) {
       fs.mkdirSync(OUTPUT_DIR)
     }
    fs.writeFileSync(outputPath, render(team), 'utf-8')
   }
-}
+
 
 function promptMenu(){
   inquirer

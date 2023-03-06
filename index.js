@@ -92,10 +92,6 @@ function addIntern(otherEmpInfo){
     promptMenu()
   })
 }
-// function createHtml(){
-//   //fs.writefile(FILENAME, DATA, ERR HANDLING)
-//   fs.writeFile()
-// }
 
 const createHtml = () => {
 
@@ -103,7 +99,7 @@ const createHtml = () => {
       fs.mkdirSync(OUTPUT_DIR)
     }
    fs.writeFileSync(outputPath, render(team), 'utf-8')
-  }
+  };
 
 
 function promptMenu(){

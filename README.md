@@ -4,6 +4,8 @@
  ## Description 
 This is an application that creates a team-profile-base where a project manager can enter the details of all the members of their team and create a team-profile page displaying each team member's professional details. 
 
+![Screenshot of application](/assets/ScreenshotFour.png)
+
 ## Table Of Contents
 
   * [Description](#description)
@@ -26,6 +28,14 @@ Use 'npm i' to install.
 * Once selected the application will ask a series of questions relevant to type of employee selected. 
 * The application will then ask if you would like to add another employee, once the user has entered all intended employees they can select 'n' which will then automatically process the information and generate a html file of all team-members profiles using the pre-made template. 
 * The team-member-profile page can be viewed from the 'team.html' file in the 'output' folder. 
+
+![Screenshot of how to install](/assets/ScreenshotOne.png)
+
+![Screenshot of how to select employee](/assets/ScreenshotTwo.png)
+
+![Screenshot of employee questions answered](//assets/ScreenshotThree.png)
+
+![Screenshot of resulting webpage](/assets/ScreenshotFour.png)
 
 ## Tests 
 

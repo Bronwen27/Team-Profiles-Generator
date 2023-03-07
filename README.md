@@ -41,6 +41,7 @@ Use 'npm test' to run tests.
 
 ## Deployed-Link: 
 
+https://bronwen27.github.io/Team-Profiles-Generator/
 
 # License 
 

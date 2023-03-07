@@ -31,9 +31,7 @@ Use 'npm i' to install.
 
 ![Screenshot of how to install](/assets/ScreenshotOne.png)
 
-![Screenshot of how to select employee](/assets/ScreenshotTwo.png)
-
-![Screenshot of employee questions answered](//assets/ScreenshotThree.png)
+![Screenshot of questions answered](/assets/ScreenshotTwo.png)
 
 ![Screenshot of resulting webpage](/assets/ScreenshotFour.png)
 

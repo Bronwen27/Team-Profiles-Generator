@@ -97,26 +97,38 @@ module.exports = team => {
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c502137733.js"></script>
     <style>
-      .jumbotron {
-        background: linear-gradient(to bottom right, blue, navy, blue);
-        color:antiquewhite;
-        font-family:Engravers MT;
-      }
-      .employee-card {
-        margin:80px
-      }
-      .employee-card .card-header,
-      .employee-card .card-body {
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-      }
-      .card-header {
-        background-color:blue;
-        color:antiquewhite
-      }
-      body {
-        background-color: rgba(36, 36, 251, 0.24);
-      }
-    </style> 
+    .jumbotron {
+      background: linear-gradient(to bottom right, blue, navy, blue);
+      color:antiquewhite;
+      font-family:Engravers MT;
+    }
+    .employee-card {
+      margin:90px;
+    }
+    .card-deck {
+      width: 3000px;
+    }
+    .container {
+      max-width: 1350px;
+    }
+    .employee-card .card-header,
+    .employee-card .card-body {
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+      width: 200px;
+    }
+    .card-header {
+      background-color:blue;
+      color:antiquewhite;
+      height: 150px
+    }
+    .card-body {
+      padding: 1px;
+      background-color: white;
+    }
+    body {
+      background-color: rgba(36, 36, 251, 0.24);
+    }
+  </style> 
 </head>
 
 <body>
